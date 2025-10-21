@@ -1,0 +1,257 @@
+/**
+ * Admin styles
+ */
+
+.wfbp-form-builder {
+    max-width: 100%;
+}
+
+.wfbp-builder-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.wfbp-builder-sidebar {
+    width: 250px;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.wfbp-builder-sidebar h3 {
+    margin-top: 0;
+}
+
+.wfbp-field-types {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.wfbp-field-type {
+    padding: 10px;
+    background: #f0f0f1;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    cursor: move;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.wfbp-field-type:hover {
+    background: #e7e9eb;
+}
+
+.wfbp-field-type .dashicons {
+    color: #50575e;
+}
+
+.wfbp-pro-notice {
+    background: #f0f6fc;
+    border: 1px solid #0073aa;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.wfbp-pro-notice h4 {
+    margin-top: 0;
+    color: #0073aa;
+}
+
+.wfbp-pro-notice ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.wfbp-builder-main {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.wfbp-form-settings-header {
+    margin-bottom: 20px;
+}
+
+.wfbp-form-name-input {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+}
+
+.wfbp-form-fields {
+    min-height: 300px;
+    border: 2px dashed #c3c4c7;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.wfbp-placeholder {
+    text-align: center;
+    color: #646970;
+    padding: 50px 20px;
+    font-size: 16px;
+}
+
+.wfbp-form-field {
+    background: #f9f9f9;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.wfbp-field-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dcdcde;
+}
+
+.wfbp-drag-handle {
+    cursor: move;
+    color: #646970;
+}
+
+.wfbp-field-type-label {
+    flex: 1;
+    font-weight: 600;
+}
+
+.wfbp-remove-field {
+    background: none;
+    border: none;
+    color: #b32d2e;
+    cursor: pointer;
+    padding: 0;
+    font-size: 20px;
+}
+
+.wfbp-remove-field:hover {
+    color: #8a2424;
+}
+
+.wfbp-field-config {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wfbp-field-config input[type="text"],
+.wfbp-field-config textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+}
+
+.wfbp-field-config textarea {
+    min-height: 80px;
+}
+
+.wfbp-form-settings {
+    border-top: 1px solid #c3c4c7;
+    padding-top: 20px;
+}
+
+.wfbp-copy-shortcode {
+    margin-left: 10px;
+}
+
+.wfbp-delete-form {
+    color: #b32d2e;
+}
+
+.wfbp-delete-form:hover {
+    color: #8a2424;
+}
+
+.wfbp-leads-filters {
+    background: #fff;
+    padding: 15px;
+    margin: 20px 0;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.wfbp-leads-filters form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.wfbp-license-container {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.wfbp-status-active {
+    color: #008a20;
+    font-weight: 600;
+}
+
+.wfbp-pro-features {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #c3c4c7;
+}
+
+.wfbp-pro-features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wfbp-pro-features li {
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.wfbp-pro-badge {
+    display: inline-block;
+    background: #0073aa;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+details {
+    cursor: pointer;
+}
+
+details summary {
+    color: #2271b1;
+}
+
+details dl {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f0f0f1;
+    border-radius: 4px;
+}
+
+details dt {
+    margin-top: 5px;
+}
+
+details dd {
+    margin-left: 0;
+    margin-bottom: 10px;
+}
