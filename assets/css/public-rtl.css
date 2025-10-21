@@ -1,0 +1,27 @@
+/**
+ * RTL (Right-to-Left) styles
+ */
+
+.wfbp-form {
+    direction: rtl;
+    text-align: right;
+}
+
+.wfbp-field label {
+    text-align: right;
+}
+
+.wfbp-option-label input[type="radio"],
+.wfbp-option-label input[type="checkbox"] {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.wfbp-submit-btn:disabled {
+    cursor: not-allowed;
+}
+
+.wfbp-form.loading .wfbp-submit-btn::after {
+    margin-left: 0;
+    margin-right: 10px;
+}
