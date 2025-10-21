@@ -1,0 +1,53 @@
+# WhatsApp Form Builder - Translation Template
+# This file is distributed under the same license as the WhatsApp Form Builder plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WhatsApp Form Builder 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/hindiadobe-png/whatsapp-form-builder/issues\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "WhatsApp Forms"
+msgstr ""
+
+msgid "Add New"
+msgstr ""
+
+msgid "All Forms"
+msgstr ""
+
+msgid "Leads"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Form Name"
+msgstr ""
+
+msgid "Save Form"
+msgstr ""
+
+msgid "Send to WhatsApp"
+msgstr ""
+
+msgid "This field is required"
+msgstr ""
+
+msgid "Invalid form"
+msgstr ""
+
+msgid "Form submitted successfully"
+msgstr ""
+
+msgid "Security check failed"
+msgstr ""
+
+msgid "reCAPTCHA verification failed"
+msgstr ""
