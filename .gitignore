@@ -1,0 +1,14 @@
+node_modules/
+vendor/
+.DS_Store
+*.log
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+/build/
+/dist/
+/.phpunit.result.cache
